@@ -1,0 +1,80 @@
+<!doctype html>
+<!--
+Taken over from https://github.com/polymerelements/iron-icons
+-->
+<html>
+<head>
+
+	<title>iron-flag-icons</title>
+
+	<!-- polyfill WebComponents, if needed -->
+	<script src="../../webcomponentsjs/webcomponents-loader.js"></script>
+	<link href="../../paper-styles/demo-pages.html" rel="import">
+	<link rel="import" href="../../paper-styles/color.html">
+	<link rel="import" href="../../iron-icon/iron-icon.html">
+	<link rel="import" href="../../iron-flex-layout/iron-flex-layout-classes.html">
+	<link rel="import" href="../flag-icons.html">
+
+	<custom-style>
+		<style is="custom-style">
+			h2 {
+				text-transform: capitalize;
+			}
+			iron-icon {
+				transition: all 0.2s;
+				-webkit-transition: all 0.2s;
+			}
+			iron-icon:hover {
+				fill: var(--google-yellow-700);
+			}
+			.set {
+				display: block;
+				text-align: center;
+				margin: auto;
+				padding: 1em 0;
+				border-bottom: 1px solid silver;
+			}
+			.set:last-of-type {
+				border-bottom: none;
+			}
+			.set:nth-of-type(4n-3) {
+				color: var(--paper-grey-700);
+			}
+			.set:nth-of-type(4n-2) {
+				color: var(--paper-pink-500);
+			}
+			.set:nth-of-type(4n-1) {
+				color: var(--google-green-500);
+			}
+			.set:nth-of-type(4n) {
+				color: var(--google-blue-500);
+			}
+			.container {
+				display: inline-block;
+				width: 10em;
+				margin: 1em 0.5em;
+				text-align: center;
+			}
+			.container > div {
+				margin-top: 0.5em;
+				color: black;
+				font-size: 10px;
+			}
+		</style>
+	</custom-style>
+
+</head>
+<body>
+
+	<h2>Flags</h2>
+	<span class="container">
+		<iron-icon icon="flag:france"></iron-icon>
+		<div>flag:france</div>
+	</span>
+	<span class="container">
+		<iron-icon icon="flag:usa"></iron-icon>
+		<div>flag:usa</div>
+	</span>
+
+</body>
+</html>
