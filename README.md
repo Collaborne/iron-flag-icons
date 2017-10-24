@@ -1,4 +1,5 @@
-# flag-icons
+# flag-icons [![Build Status](https://travis-ci.org/Collaborne/iron-flag-icons.svg?branch=master)](https://travis-ci.org/Collaborne/iron-flag-icons)
+
 Polymer icon set for flags
 
 To use this element:
