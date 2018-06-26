@@ -1,5 +1,8 @@
 # flag-icons [![Build Status](https://travis-ci.org/Collaborne/iron-flag-icons.svg?branch=master)](https://travis-ci.org/Collaborne/iron-flag-icons)
 
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/Collaborneiron-flag-icons)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/Collaborneiron-flag-icons.svg)](https://vaadin.com/directory/component/Collaborneiron-flag-icons)
+
 Polymer icon set for flags
 
 To use this element:
